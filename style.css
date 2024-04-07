@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Merienda:wght@300..900&family=Protest+Revolution&display=swap');
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    font-weight: bold;
+    float: right;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px  30px;
+    border-radius: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li :hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+
+}
+.barra{
+    background-color: black;
+    height: 3em;
+    width: 100%;
+
+}
+section{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(  rgba(0,0,0, 0.70), rgba(0,0,0, 0.50)  ), url(https://www.xtrafondos.com/descargar.php?id=6681&resolucion=1280x720);
+    padding-top: 20px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+header{
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 200px;
+    color: rgb(203, 128, 8);
+    padding-bottom: 20px;
+}
+h2{
+    font-family: "Merienda", cursive;
+    text-align: left;
+    padding-left: 70px;
+    font-size: 20px;
+    color: rgb(255, 228, 53);
+    font-weight: 100;
+}
+.section{
+    width: 100%;
+    height: 310px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+article{
+    
+    width: 48%;
+    height: 298px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    margin: 1px;
+    text-align: center;
+    color: #875105;
+    float: left;
+    text-align: justify;
+    padding-left: 100px;
+    font-size: 25px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    
+}
+aside{
+    
+    width: 28%;
+    height: 307px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 1px;
+    margin: 1px;
+    text-align: center;
+    color: #fff;
+    float: right;
+}
+.postre{
+    width: 100%;
+    height: 307px;
+    background-image: linear-gradient(  rgba(0,0,0, 0.70), rgba(0,0,0, 0.70)  ), url(https://www.recetasnestlecam.com/sites/default/files/srh_recipes/07892f02f7c57b83d5703b4ee924221e.jpg);
+    padding-top: 20px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.texto{
+    width: 48%;
+    height: 298px;
+    
+    padding-top: 10px;
+    margin: 1px;
+    text-align: center;
+    color: #ffcc00;
+    text-align: justify;
+    padding-right: 100px;
+    font-size: 25px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    float: right;  
+}
+.imagen{
+    width: 28%;
+    height: 307px;
+    padding-top: 1px;
+    margin: 1px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    
+    
+}
+.cuadro{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    text-align: center;
+}
+.uno{
+    width: 300px;
+    height: 290px;
+    background-image: linear-gradient(  rgba(0,0,0, 0.70), rgba(0,0,0, 0.70)  ),url(https://thumbs.dreamstime.com/z/collage-del-helado-26474596.jpg);
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: 200px;
+    float: inline-end;
+    color: #5dc1f3;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 80px;
+    padding-top: 120px;
+    float: inline-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dos{
+    width: 300px;
+    height: 290px;
+    background-image: linear-gradient(  rgba(0,0,0, 0.70), rgba(0,0,0, 0.70)  ),url(https://c8.alamy.com/compes/2a4ryx2/collage-de-alimentos-muchas-fotos-de-sabrosos-platos-una-plantilla-de-diseno-cuadrado-para-un-banner-panfleto-o-restaurante-menu-portada-2a4ryx2.jpg);
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-right: 200px;
+    float: inline-end;
+    color: #ffcc00;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 100px;
+    padding-top: 120px;
+}
+div a{
+    text-decoration: none;
+    color: #9efe4f;
+}
